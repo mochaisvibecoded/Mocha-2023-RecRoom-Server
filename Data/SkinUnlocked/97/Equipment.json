@@ -1,0 +1,211 @@
+[
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "7ef5d1d9-24db-428c-85e0-107c1bfcc026",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Orange)",
+    "Tooltip": null,
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "4aff20ee-0b20-434b-a030-d3e1764fe4e7",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Purple)",
+    "Tooltip": null,
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "5dcf8a2e-6fa6-4007-ac1e-73dd53c4c247",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Purple)",
+    "Tooltip": null,
+    "Rarity": 1,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "e6899422-ab2f-4bd9-8e98-aef950ec27b6",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Blue)",
+    "Tooltip": null,
+    "Rarity": 1,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "93f5418e-a03d-4074-804c-daa0e374dd9f",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Purple)",
+    "Tooltip": null,
+    "Rarity": 1,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "affbab2d-3200-4512-a140-685fdc5570c6",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Yellow)",
+    "Tooltip": null,
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "fSbzGxsjKE-cwtFFX6dJQw",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Carpet)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "gl_tlo_t7U-H308Omy13lw",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Spring)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "bNEcMJOzokeEVKDeXk_cDQ",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Gold)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "TpaRhLqVc02Oyr769imtnQ",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Diamond Universe)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "JtMeQRvo00yVwAliICTP0w",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Movie Magic)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "-ybFpUxTsUKWFSIS-8fOOw",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Neon RR\u002B)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "jZ7wlwRxgUuWYuLasbnG8w",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (80s Sunset)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Shotgun]",
+    "ModificationGuid": "bb36b722-16dc-4172-b61f-237dc1240040",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Shotgun (Jack-O-Lantern)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "L9usPszLFkiA6xs32es2Lw",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Neon RR\u002B)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Quest_SciFi_RailGun]",
+    "ModificationGuid": "46977ca7-ee75-4e2a-b8aa-0763879f8a96",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Railgun (Pink)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[PaintballGrenadeLauncher]",
+    "ModificationGuid": "L-_iZgicHUajydSvUWVJhw",
+    "UnlockedLevel": 0,
+    "Favorited": true,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Launcher (Jumbotron)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Bucket]",
+    "ModificationGuid": "VW3WV6oQOkqYshf1xc9n3A",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bucket (Black Light Swirl)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Bucket]",
+    "ModificationGuid": "ou23DX__T0qFPjAXC5WrOQ",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bucket (Fashion)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  }
+]

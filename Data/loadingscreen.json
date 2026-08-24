@@ -1,0 +1,170 @@
+[
+  {
+    "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/Welcome.png",
+    "Message": "Welcome to Mocha! Meet up with friends, explore community rooms, and try not to break anything within your first five minutes.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Welcome to Mocha"
+  },
+  {
+    "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/Welcome.png",
+    "Message": "Open the People menu to find, friend, subscribe to, and join other players.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Play together"
+  },
+  {
+    "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/TokenBin.png",
+    "Message": "Use Tokens in the Store to pick up avatar items and customize your look. Financial responsibility is temporarily optional.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Visit the Store"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Cheat programs can contain malware, steal passwords, or spy on your computer. Do not trust random downloads made by some guy named xXShadowModderXx.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Stay safe"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Never share your password, login token, or account information. Mocha staff will never ask for them.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Protect your account"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Create your own room, invite your friends, and build something incredible. Or create an empty cube and call it modern art.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Create something"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Save your room regularly. The save button cannot help you after you accidentally delete three hours of work.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Remember to save"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Use the Watch menu to change rooms, customize your avatar, manage friends, and stare at menus instead of playing.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Check your Watch"
+  },
+  {
+    "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/Welcome.png",
+    "Message": "Be respectful to other players. Behind every avatar is a real person, unless Coach has finally become sentient.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Be excellent"
+  },
+{
+  "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/Community.png",
+  "Message": "Follow Mocha on our socials for updates, announcements, sneak peeks, and occasional posts made at 3 AM with questionable grammar.",
+  "PlatformMask": -1,
+  "RoomNames": [],
+  "Title": "Our socials!"
+},
+  {
+    "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/Community.png",
+    "Message": "Report players who are harassing others, exploiting, or seriously breaking the rules. Do not report someone because they beat you at Paintball.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Use reports responsibly"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Experiencing lag? Close unnecessary programs, check your connection, and politely ask your router to lock in.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Performance tip"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Your microphone has a mute button. This ancient technology can prevent everyone from hearing your fan, keyboard, dog, and entire household.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Microphone technology"
+  },
+  {
+    "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/DailyChallenges.png",
+    "Message": "Weekly challenges offer special rewards. Complete them before they disappear into the mysterious weekly challenge dimension.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Weekly challenges"
+  },
+  {
+    "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/Style.png",
+    "Message": "Customize your avatar with outfits, accessories, and colors. Fashion crimes are allowed, but everyone will remember them.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Express yourself"
+  },
+  {
+    "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/RecNet.png",
+    "Message": "Take photos with the Share Camera and upload your favorite moments. Please verify that your camera is facing the correct direction first.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Capture the moment"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "If a room fails to load, try joining again. If that does not work, stare at the loading screen aggressively until it becomes intimidated.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Loading problems"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Do not download mysterious files from strangers. A file named DefinitelyNotAVirus.exe may contain groundbreaking scientific deception.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Download carefully"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Mocha contains approximately zero grams of actual coffee. Side effects may still include staying awake until 4 AM.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Mocha fact"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Fun fact: repeatedly pressing a button does not make the server respond faster. It does, however, make you feel involved.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Button science"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "The orange door is not judging you. Probably.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Important information"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "Remember to take breaks, drink water, and briefly acknowledge the physical world outside your headset.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Take a break"
+  },
+  {
+    "ImageName": "https://i.pinimg.com/control1/1200x/eb/0d/2c/eb0d2c7abb1ac7d1a3cc612d2a779449.jpg",
+    "Message": "You are now legally required to have fun. Enforcement remains extremely unclear.",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Mandatory fun"
+  },
+  {
+    "ImageName": "https://playmocha.xyz/imageserver/LoadingScreen/Discord.png",
+    "Message": "Join the Mocha Discord for updates, events, support, and at least three conversations happening in the completely wrong channel. discord.gg/fmcwn23A9c",
+    "PlatformMask": -1,
+    "RoomNames": [],
+    "Title": "Join the Discord"
+  }
+]

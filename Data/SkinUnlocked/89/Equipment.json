@@ -1,0 +1,79 @@
+[
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "7ef5d1d9-24db-428c-85e0-107c1bfcc026",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Orange)",
+    "Tooltip": null,
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "4aff20ee-0b20-434b-a030-d3e1764fe4e7",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Purple)",
+    "Tooltip": null,
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "5dcf8a2e-6fa6-4007-ac1e-73dd53c4c247",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Purple)",
+    "Tooltip": null,
+    "Rarity": 1,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "e6899422-ab2f-4bd9-8e98-aef950ec27b6",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Blue)",
+    "Tooltip": null,
+    "Rarity": 1,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "93f5418e-a03d-4074-804c-daa0e374dd9f",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Purple)",
+    "Tooltip": null,
+    "Rarity": 1,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "affbab2d-3200-4512-a140-685fdc5570c6",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Yellow)",
+    "Tooltip": null,
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  },
+  {
+    "PrefabName": "[DiscGolfDisc]",
+    "ModificationGuid": "2b70a76e-6f48-402e-90ff-40b06aa23eb8",
+    "UnlockedLevel": 0,
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Disc (Coach Select)",
+    "Tooltip": "",
+    "Rarity": 0,
+    "ThumbnailImage": ""
+  }
+]

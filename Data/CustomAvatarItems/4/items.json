@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "asdasdsad",
+    "Description": "asdasd",
+    "Price": 0,
+    "BaseAvatarItemId": 2184,
+    "BaseAvatarItemColor": "#191717",
+    "Accessibility": 0,
+    "CustomAvatarItemId": 1787521144534,
+    "customAvatarItemId": 1787521144534,
+    "Id": 1787521144534,
+    "CreatorPlayerId": 4,
+    "creatorPlayerId": 4,
+    "CreatorAccountId": 4,
+    "CreatedAt": "2026-08-23T21:39:04.5341931Z",
+    "createdAt": "2026-08-23T21:39:04.5341931Z",
+    "ThumbnailImage": "CustomAvatarItems/4/1787521144534.png",
+    "thumbnailImage": "CustomAvatarItems/4/1787521144534.png"
+  }
+]

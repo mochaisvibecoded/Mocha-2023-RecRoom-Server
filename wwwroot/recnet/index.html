@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1d1d1d">
+  <meta name="description" content="Mocha RecNet — discover rooms, creators, photos, events, and live community updates.">
+  <title>Mocha RecNet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+  <link rel="stylesheet" href="/recnet/tokens.css?v=3">
+  <link rel="stylesheet" href="/recnet/styles.css?v=11">
+  <link rel="stylesheet" href="/recnet/dark.css?v=5">
+  <link rel="stylesheet" href="/recnet/badges.css?v=2">
+  <link rel="stylesheet" href="/recnet/features.css?v=4">
+  <link rel="stylesheet" href="/recnet/font.css?v=4">
+  <link rel="stylesheet" href="/recnet/photo.css">
+  <link rel="stylesheet" href="/recnet/admin.css?v=11">
+  <link rel="stylesheet" href="/recnet/community-board.css?v=2">
+  <link rel="stylesheet" href="/recnet/shop.css?v=2">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+  <header class="masthead">
+    <a class="wordmark" href="#home" aria-label="Mocha home"><img class="mocha-logo" src="/recnet/mocha-logo.png?v=2" width="190" height="48" alt="Mocha"></a>
+    <nav class="masthead-links">
+      <button class="nav-link" data-view="rooms">Rooms</button>
+      <button class="nav-link" data-view="users">Users</button>
+      <button class="nav-link" data-view="shop">Shop</button>
+    </nav>
+    <div class="search-shell">
+      <label class="global-search"><span>Search</span><input id="globalSearch" placeholder="Search players and rooms" autocomplete="off" aria-label="Search players and rooms"></label>
+      <div id="globalSearchResults" class="global-search-results" hidden></div>
+    </div>
+    <div class="mast-actions"><button id="serverStatus" class="server-status connecting" type="button" aria-label="Server status"><i></i><span id="serverStatusLabel">Connecting</span></button><button id="loginButton" class="login-button">Log in</button><button id="miniAvatar" class="mini-avatar" type="button" aria-label="Open profile">R</button><div class="account-menu-wrap"><button id="settingsMenuButton" class="circle-button settings-gear" type="button" aria-label="Settings menu"><i class="fa-solid fa-gear"></i></button><div id="accountMenu" class="account-menu" hidden><button class="account-menu-item nav-link" data-view="settings"><i class="fa-solid fa-gear"></i>Settings</button><a id="adminNav" class="account-menu-item" href="/recnet/mocha" hidden><i class="fa-solid fa-shield-halved"></i>Admin</a><a id="moderatorNav" class="account-menu-item moderator-nav" href="/recnet/mocha" hidden><i class="fa-solid fa-gavel"></i>Moderator</a><a id="developerNav" class="account-menu-item developer-nav" href="/recnet/developer" hidden><i class="fa-solid fa-chart-line"></i>Live Ops</a></div></div>
+  </header>
+  <div class="shell">
+    <main id="app" tabindex="-1"><div class="loading"><i></i>Loading Mocha</div></main>
+  </div>
+  <footer class="site-footer">
+    <span>Mocha</span>
+    <span class="site-footer-tag">Built by players, for players.</span>
+    <a href="/privacy">Privacy</a>
+    <a href="/tos">Terms</a>
+  </footer>
+  <dialog id="loginDialog" class="login-dialog"><button class="dialog-close" aria-label="Close">&times;</button><div class="dialog-logo">M</div><h2>Log in to Mocha</h2><p>Use your in-game account details.</p><form id="loginForm"><label>Username or account ID<input name="identity" autocomplete="username" required></label><label>Password<input name="password" type="password" autocomplete="current-password" required></label><div id="loginError" class="login-error"></div><button class="primary-button" type="submit">Log in</button></form><button id="openRegister" class="secondary-link" type="button">New here? Create an account</button></dialog>
+  <dialog id="registerDialog" class="login-dialog register-dialog"><button class="register-close dialog-close" aria-label="Close">&times;</button><div class="dialog-logo">M</div><h2>Create a Mocha account</h2><p>Connect an account to your gaming platform.</p><form id="registerForm"><label>@Username<input name="username" minlength="3" maxlength="20" autocomplete="username" pattern="[A-Za-z0-9_]+" required></label><div class="register-row"><label>Platform<select name="platform" required><option value="">Choose one</option><option>Steam</option><option>Oculus</option><option>PlayStation</option><option>Xbox</option><option>IOS</option><option>GooglePlay</option></select></label><label>Platform ID<input name="platformId" inputmode="numeric" pattern="[0-9]+" placeholder="Numeric ID" required></label></div><label>Password<input name="password" type="password" minlength="8" autocomplete="new-password" required></label><label>Confirm password<input name="confirmPassword" type="password" minlength="8" autocomplete="new-password" required></label><div id="registerError" class="login-error"></div><button class="primary-button" type="submit">Create account</button></form><button id="backToLogin" class="secondary-link" type="button">Already registered? Log in</button></dialog>
+  <dialog id="photoDialog" class="photo-dialog"><button id="photoClose" class="photo-close" aria-label="Close photo"><i class="fa-solid fa-xmark"></i></button><div id="photoContent" class="photo-dialog-content"></div></dialog>
+  <script src="/recnet/app.js?v=26"></script>
+</body>
+</html>

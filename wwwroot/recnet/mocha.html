@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Mocha Admin</title>
+<link rel="stylesheet" href="mocha.css?v=20260823a">
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation"><i>&#9776;</i></button>
+    <div class="brand">Mocha Admin <span id="envBadge" class="env-badge">PROD</span></div>
+    <div class="topbar-user" id="topbarUser"></div>
+  </header>
+  <div class="backdrop" id="navBackdrop"></div>
+  <nav class="sidenav" id="sidenav">
+    <div class="nav-group" data-group="live">
+      <a href="#instances" class="nav-link" data-view="instances">Live Room Instances</a>
+    </div>
+    <div class="nav-group-title">Moderation</div>
+    <div class="nav-group" data-group="moderation">
+      <a href="#players" class="nav-link" data-view="players">Players</a>
+      <a href="#player-reports" class="nav-link" data-view="player-reports">Player Reports</a>
+      <a href="#bug-reports" class="nav-link" data-view="bug-reports">Bug Reports</a>
+      <a href="#rooms" class="nav-link" data-view="rooms">Rooms</a>
+      <a href="#clubs" class="nav-link" data-view="clubs">Clubs</a>
+      <a href="#age-verification" class="nav-link" data-view="age-verification">Age Verification</a>
+      <a href="#community-board" class="nav-link" data-view="community-board" data-requires="developer">Community Board</a>
+      <a href="#coach-gifting" class="nav-link" data-view="coach-gifting" data-requires="developer">Coach Gifting</a>
+      <a href="#announcements" class="nav-link" data-view="announcements" data-requires="developer">Announcements</a>
+      <a href="#player-events" class="nav-link" data-view="player-events" data-requires="developer">Player Events</a>
+      <a href="#room-importer" class="nav-link" data-view="room-importer" data-requires="developer">Room Importer</a>
+      <a href="#logs" class="nav-link" data-view="logs" data-requires="developer">Logs</a>
+      <a href="#scanner-logs" class="nav-link" data-view="scanner-logs" data-requires="developer">Loser Scanner Logs</a>
+      <a href="#anticheat-logs" class="nav-link" data-view="anticheat-logs" data-requires="developer">Anticheat Logs</a>
+    </div>
+    <div class="nav-group-title" data-requires="developer">Configuration</div>
+    <div class="nav-group" data-group="configuration" data-requires="developer">
+      <a href="#config" class="nav-link" data-view="config">Config</a>
+      <a href="#account-creation" class="nav-link" data-view="account-creation">Account Creation</a>
+      <a href="#avatar-items" class="nav-link" data-view="avatar-items">Avatar Items</a>
+      <a href="#ip-bans" class="nav-link" data-view="ip-bans">IP Bans</a>
+      <a href="#steam-blacklist" class="nav-link" data-view="steam-blacklist">Steam Blacklist</a>
+      <a href="#shop" class="nav-link" data-view="shop">Shop</a>
+    </div>
+    <div class="nav-group-title">Settings</div>
+    <div class="nav-group" data-group="settings">
+      <a href="#preferences" class="nav-link" data-view="preferences">Preferences</a>
+    </div>
+  </nav>
+  <main id="app" class="app" tabindex="-1"></main>
+</div>
+<script src="mocha.js?v=20260823a"></script>
+</body>
+</html>

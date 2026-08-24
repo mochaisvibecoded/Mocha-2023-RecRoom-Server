@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d14">
+  <title>Mocha Live Ops</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+  <link rel="stylesheet" href="/recnet/tokens.css?v=2">
+  <link rel="stylesheet" href="/recnet/font.css?v=2">
+  <link rel="stylesheet" href="/recnet/developer.css?v=1">
+</head>
+<body>
+  <header class="ops-header">
+    <a class="ops-brand" href="/recnet/#admin">
+      <span class="brand-mark">M</span>
+      <span><strong>Mocha</strong><small>Developer Live Ops</small></span>
+    </a>
+    <div class="header-actions">
+      <span id="streamState" class="stream-state connecting"><i></i> Connecting</span>
+      <a class="back-button" href="/recnet/#admin">Back to Admin</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <div>
+        <span class="eyebrow">Developer only</span>
+        <h1>Server pulse</h1>
+        <p>Live traffic, player presence, requests, and chat activity in one place.</p>
+      </div>
+      <div class="updated"><span>Last update</span><strong id="lastUpdated">Waiting for data</strong></div>
+    </section>
+
+    <section class="metric-grid" aria-label="Live server metrics">
+      <article class="metric-card accent-purple"><span>Players online</span><strong id="onlineMetric">—</strong><small id="socketMetric">— sockets</small></article>
+      <article class="metric-card accent-blue"><span>Requests</span><strong id="requestMetric">—</strong><small id="requestRateMetric">— per second</small></article>
+      <article class="metric-card accent-green"><span>Network traffic</span><strong id="networkMetric">—</strong><small id="networkRateMetric">— per second</small></article>
+      <article class="metric-card accent-orange"><span>CPU / Memory</span><strong id="resourceMetric">—</strong><small id="uptimeMetric">— uptime</small></article>
+      <article class="metric-card accent-red"><span>Errors</span><strong id="errorMetric">—</strong><small id="errorRateMetric">— error rate</small></article>
+      <article class="metric-card accent-pink"><span>Chat messages</span><strong id="chatMetric">—</strong><small id="chatThreadMetric">— threads</small></article>
+    </section>
+
+    <section class="chart-grid">
+      <article class="panel chart-panel">
+        <div class="panel-heading"><div><span class="panel-kicker">Last 2 minutes</span><h2>Request volume</h2></div><div class="legend"><span class="purple">Requests</span><span class="orange">Latency</span></div></div>
+        <canvas id="requestChart" aria-label="Requests and latency over time"></canvas>
+      </article>
+      <article class="panel chart-panel">
+        <div class="panel-heading"><div><span class="panel-kicker">Last 2 minutes</span><h2>Network throughput</h2></div><div class="legend"><span class="blue">Inbound</span><span class="green">Outbound</span></div></div>
+        <canvas id="networkChart" aria-label="Inbound and outbound bytes over time"></canvas>
+      </article>
+      <article class="panel chart-panel wide">
+        <div class="panel-heading"><div><span class="panel-kicker">This browser session</span><h2>Server resources</h2></div><div class="legend"><span class="purple">CPU</span><span class="pink">Memory</span></div></div>
+        <canvas id="resourceChart" aria-label="CPU and memory usage over time"></canvas>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <div><span class="panel-kicker">Presence</span><h2>Players online</h2></div>
+        <span id="onlineCountBadge" class="count-badge">0 online</span>
+      </div>
+      <div id="onlinePlayers" class="online-list"><div class="empty">Waiting for player presence…</div></div>
+    </section>
+
+    <section class="split-grid">
+      <article class="panel activity-panel">
+        <div class="panel-heading controls-heading">
+          <div><span class="panel-kicker">Live HTTP</span><h2>API requests</h2></div>
+          <div class="panel-controls">
+            <input id="requestFilter" type="search" placeholder="Filter path or status">
+            <button id="pauseRequests" type="button">Pause</button>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Time</th><th>Status</th><th>Method</th><th>Path</th><th>Latency</th><th>Out</th></tr></thead>
+            <tbody id="requestRows"><tr><td colspan="6" class="empty-cell">Waiting for requests…</td></tr></tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="panel activity-panel">
+        <div class="panel-heading controls-heading">
+          <div><span class="panel-kicker">All threads</span><h2>Live chats</h2></div>
+          <input id="chatFilter" type="search" placeholder="Filter messages or players">
+        </div>
+        <div id="chatRows" class="chat-list"><div class="empty">Waiting for chat activity…</div></div>
+        <button id="loadOlderChats" class="load-more" type="button">Load older messages</button>
+      </article>
+    </section>
+  </main>
+
+  <script src="/recnet/developer.js?v=1"></script>
+</body>
+</html>

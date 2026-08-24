@@ -1,0 +1,53 @@
+{
+  "FeaturedPlayer": {
+    "Id": 27,
+    "TitleOverride": "Featured Creator!",
+    "UrlOverride": "https://playmocha.xyz/recnet/#user/27"
+  },
+  "FeaturedRoomGroup": {
+    "FeaturedRoomGroupId": 1,
+    "Name": "rooms Highlights",
+    "StartAt": "2023-05-02T07:00:00Z",
+    "EndAt": "9999-05-09T07:00:00Z",
+    "FeaturedRooms": [
+      {
+        "RoomName": "BreakingPoint",
+        "RoomId": 169,
+        "ImageName": "2p70y0ah2gi52s4uo39793gj1.jpg"
+      },
+      {
+        "RoomName": "Reclympics",
+        "RoomId": 165,
+        "ImageName": "301407ad762a4d8db965c1fafd1c228e.jpg"
+      },
+      {
+        "RoomName": "CV2-Workshop",
+        "RoomId": 235,
+        "ImageName": "2svvtgbmv7je3vuiuvehfa4zp.jpg"
+      }
+    ],
+    "Rooms": [
+      {
+        "RoomName": "BreakingPoint",
+        "RoomId": 169,
+        "ImageName": "2p70y0ah2gi52s4uo39793gj1.jpg"
+      },
+      {
+        "RoomName": "Reclympics",
+        "RoomId": 165,
+        "ImageName": "301407ad762a4d8db965c1fafd1c228e.jpg"
+      },
+      {
+        "RoomName": "CV2-Workshop",
+        "RoomId": 235,
+        "ImageName": "2svvtgbmv7je3vuiuvehfa4zp.jpg"
+      }
+    ]
+  },
+  "CurrentAnnouncement": {
+    "Message": "Hi everyone!",
+    "MoreInfoUrl": "https://playmocha.xyz/recnet"
+  },
+  "InstagramImages": [],
+  "Videos": []
+}

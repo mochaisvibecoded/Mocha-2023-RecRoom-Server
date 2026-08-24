@@ -1,0 +1,133 @@
+.avatar-wrap {
+    --avatar-size: 40px;
+    position: relative;
+    display: inline-block;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    flex: 0 0 var(--avatar-size);
+    overflow: visible;
+}
+
+.avatar-wrap>.avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.verified-badge {
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    z-index: 4;
+    display: grid;
+    place-items: center;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--card);
+    border-radius: 50%;
+    background: var(--card);
+    color: #2f8cff;
+    font-size: 16px;
+    line-height: 1;
+    filter: drop-shadow(0 1px 3px rgba(0,0,0,.55));
+    pointer-events: none;
+}
+
+.verified-badge i {
+    display: block;
+    line-height: 1;
+}
+
+.rrplus-inline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    height: 27px;
+    margin-left: 6px;
+    flex: 0 0 27px;
+    overflow: hidden;
+    vertical-align: middle;
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,.5));
+}
+
+.rrplus-inline img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    transform: scale(.92);
+}
+
+.owner-row,.name-row {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+}
+
+.owner-row .rrplus-inline {
+    width: 21px;
+    height: 21px;
+    margin-left: 4px;
+    flex-basis: 21px;
+}
+
+.user-card .avatar-wrap {
+    --avatar-size: 62px;
+}
+
+.user-card .verified-badge {
+    right: -1px;
+    bottom: -1px;
+    width: 21px;
+    height: 21px;
+    font-size: 19px;
+}
+
+.profile-avatar-row .avatar-wrap {
+    --avatar-size: 88px;
+}
+
+.profile-avatar-row .avatar-wrap>.avatar {
+    border: 4px solid var(--card);
+    box-shadow: 0 2px 7px rgba(0,0,0,.4);
+}
+
+.profile-avatar-row .verified-badge {
+    right: 4px;
+    bottom: 4px;
+    width: 26px;
+    height: 26px;
+    border-width: 3px;
+    font-size: 23px;
+}
+
+.profile-side-body h1 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    min-height: 34px;
+    color: #fff;
+    -webkit-text-stroke: 2px rgba(0,0,0,.95);
+    paint-order: stroke fill;
+    text-shadow: 0 2px 3px #000,1px 1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+}
+
+@media (max-width:620px) {
+    .profile-avatar-row .avatar-wrap {
+        --avatar-size: 76px;
+    }
+    .profile-avatar-row .verified-badge {
+        right: 2px;
+        bottom: 2px;
+        width: 25px;
+        height: 25px;
+        font-size: 22px;
+    }
+    .rrplus-inline {
+        width: 24px;
+        height: 24px;
+        flex-basis: 24px;
+    }
+}

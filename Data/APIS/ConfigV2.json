@@ -1,0 +1,376 @@
+{
+  "MessageOfTheDay": "hey",
+  "CdnBaseUri": "https://playmocha.xyz",
+  "ShareBaseUrl": "https://playmocha.xyz/share/0",
+  "LevelProgressionMaps": [
+    {
+      "Level": 0,
+      "RequiredXp": 0
+    },
+    {
+      "Level": 1,
+      "RequiredXp": 1
+    },
+    {
+      "Level": 2,
+      "RequiredXp": 3
+    },
+    {
+      "Level": 3,
+      "RequiredXp": 6
+    },
+    {
+      "Level": 4,
+      "RequiredXp": 9
+    },
+    {
+      "Level": 5,
+      "RequiredXp": 12
+    },
+    {
+      "Level": 6,
+      "RequiredXp": 16
+    },
+    {
+      "Level": 7,
+      "RequiredXp": 19
+    },
+    {
+      "Level": 8,
+      "RequiredXp": 28
+    },
+    {
+      "Level": 9,
+      "RequiredXp": 42
+    },
+    {
+      "Level": 10,
+      "RequiredXp": 63
+    },
+    {
+      "Level": 11,
+      "RequiredXp": 94
+    },
+    {
+      "Level": 12,
+      "RequiredXp": 141
+    },
+    {
+      "Level": 13,
+      "RequiredXp": 211
+    },
+    {
+      "Level": 14,
+      "RequiredXp": 316
+    },
+    {
+      "Level": 15,
+      "RequiredXp": 474
+    },
+    {
+      "Level": 16,
+      "RequiredXp": 711
+    },
+    {
+      "Level": 17,
+      "RequiredXp": 1066
+    },
+    {
+      "Level": 18,
+      "RequiredXp": 1599
+    },
+    {
+      "Level": 19,
+      "RequiredXp": 2398
+    },
+    {
+      "Level": 20,
+      "RequiredXp": 3597
+    },
+    {
+      "Level": 21,
+      "RequiredXp": 5395
+    },
+    {
+      "Level": 22,
+      "RequiredXp": 8092
+    },
+    {
+      "Level": 23,
+      "RequiredXp": 12138
+    },
+    {
+      "Level": 24,
+      "RequiredXp": 18207
+    },
+    {
+      "Level": 25,
+      "RequiredXp": 27310
+    },
+    {
+      "Level": 26,
+      "RequiredXp": 40965
+    },
+    {
+      "Level": 27,
+      "RequiredXp": 61447
+    },
+    {
+      "Level": 28,
+      "RequiredXp": 92170
+    },
+    {
+      "Level": 29,
+      "RequiredXp": 138255
+    },
+    {
+      "Level": 30,
+      "RequiredXp": 207382
+    },
+    {
+      "Level": 31,
+      "RequiredXp": 311073
+    },
+    {
+      "Level": 32,
+      "RequiredXp": 466609
+    },
+    {
+      "Level": 33,
+      "RequiredXp": 699913
+    },
+    {
+      "Level": 34,
+      "RequiredXp": 1049869
+    },
+    {
+      "Level": 35,
+      "RequiredXp": 1574803
+    },
+    {
+      "Level": 36,
+      "RequiredXp": 2362204
+    },
+    {
+      "Level": 37,
+      "RequiredXp": 3543306
+    },
+    {
+      "Level": 38,
+      "RequiredXp": 5314959
+    },
+    {
+      "Level": 39,
+      "RequiredXp": 7972438
+    },
+    {
+      "Level": 40,
+      "RequiredXp": 11958657
+    },
+    {
+      "Level": 41,
+      "RequiredXp": 17937986
+    },
+    {
+      "Level": 42,
+      "RequiredXp": 26906980
+    },
+    {
+      "Level": 43,
+      "RequiredXp": 40360472
+    },
+    {
+      "Level": 44,
+      "RequiredXp": 60540708
+    },
+    {
+      "Level": 45,
+      "RequiredXp": 90811064
+    },
+    {
+      "Level": 46,
+      "RequiredXp": 136216592
+    },
+    {
+      "Level": 47,
+      "RequiredXp": 204324896
+    },
+    {
+      "Level": 48,
+      "RequiredXp": 306487360
+    },
+    {
+      "Level": 49,
+      "RequiredXp": 459731040
+    },
+    {
+      "Level": 50,
+      "RequiredXp": 689596544
+    }
+  ],
+  "MatchmakingParams": {
+    "PreferFullRoomsFrequency": 1.0,
+    "PreferEmptyRoomsFrequency": 0.0
+  },
+  "DailyObjectives": [
+    [
+      {
+        "Type": 20,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 21,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 22,
+        "Score": 1,
+        "Xp": 200
+      }
+    ],
+    [
+      {
+        "Type": 20,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 21,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 22,
+        "Score": 1,
+        "Xp": 200
+      }
+    ],
+    [
+      {
+        "Type": 20,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 21,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 22,
+        "Score": 1,
+        "Xp": 200
+      }
+    ],
+    [
+      {
+        "Type": 20,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 21,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 22,
+        "Score": 1,
+        "Xp": 200
+      }
+    ],
+    [
+      {
+        "Type": 20,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 21,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 22,
+        "Score": 1,
+        "Xp": 200
+      }
+    ],
+    [
+      {
+        "Type": 20,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 21,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 22,
+        "Score": 1,
+        "Xp": 200
+      }
+    ],
+    [
+      {
+        "Type": 20,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 21,
+        "Score": 1,
+        "Xp": 200
+      },
+      {
+        "Type": 22,
+        "Score": 1,
+        "Xp": 200
+      }
+    ]
+  ],
+  "ServerMaintenanceOFF": {
+    "StartsInMinutes": 0
+  },
+  "AutoMicMutingConfig": {
+    "MicSpamVolumeThreshold": 10.0,
+    "MicVolumeSampleInterval": 1.0,
+    "MicVolumeSampleRollingWindowLength": 15.0,
+    "MicSpamSamplePercentageForWarning": 100.0,
+    "MicSpamSamplePercentageForWarningToEnd": 0.0,
+    "MicSpamSamplePercentageForForceMute": 500.0,
+    "MicSpamSamplePercentageForForceMuteToEnd": 0.0,
+    "MicSpamWarningStateVolumeMultiplier": 10.0
+  },
+  "StorefrontConfig": {
+    "MinPlayerLevelForGifting": 5
+  },
+  "RoomKeyConfig": {
+    "MaxKeysPerRoom": 100
+  },
+  "RoomCurrencyConfig": {
+    "AwardCurrencyCooldownSeconds": 10.0
+  },
+  "ConfigTable": [
+    {
+      "Key": "Gift.DropChance",
+      "Value": "1"
+    },
+    {
+      "Key": "Gift.XP",
+      "Value": "0.5"
+    }
+  ],
+  "PhotonConfig": {
+    "CloudRegion": "us",
+    "CrcCheckEnabled": false,
+    "EnableServerTracingAfterDisconnect": false
+  },
+  "ServerMaintenance": {
+    "StartsInMinutes": 0
+  }
+}
