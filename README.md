@@ -6,3 +6,5 @@ le vibecoded
 - Friends
 - Leveling Up
 - ETC!!!
+
+Credit @Turkey and @myawired for leak
