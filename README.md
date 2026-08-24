@@ -8,3 +8,4 @@ le vibecoded
 - ETC!!!
 
 Credit @Turkey and @myawired for leak
+# FORK BEFORE IT GETS DMCA
